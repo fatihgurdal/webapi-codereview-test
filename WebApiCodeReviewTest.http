@@ -1,0 +1,16 @@
+@WebApiCodeReviewTest_HostAddress = http://localhost:5096
+
+GET {{WebApiCodeReviewTest_HostAddress}}/products
+Accept: application/json
+
+###
+
+GET {{WebApiCodeReviewTest_HostAddress}}/users
+Accept: application/json
+
+###
+
+GET {{WebApiCodeReviewTest_HostAddress}}/status
+Accept: application/json
+
+###
